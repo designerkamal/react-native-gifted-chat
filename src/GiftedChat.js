@@ -275,7 +275,7 @@ class GiftedChat extends React.Component {
   // handle Tap event to dismiss keyboard
   onTouchEnd() {
     if (this._touchStarted === true) {
-      dismissKeyboard();
+      // dismissKeyboard();
     }
     this._touchStarted = false;
   }
